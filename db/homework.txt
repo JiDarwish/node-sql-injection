@@ -1,0 +1,10 @@
+- Structure + Explanation is not enough.
+- More Clearity week2 1_2 dump
+- SIMPLE example in class with nodejs for the first week already IMPORTANT
+- Homework week 2 maybe add a model to explain what is needed for the homework 
+  (example the self join 1_3)
+- (homework 3) Atlas ???
+- homework for this week makes reference to the homework of the last nodejs homework which is not there
+
+
+mongo "mongodb+srv://class24-agvu2.mongodb.net/test" --username ji

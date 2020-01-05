@@ -1,0 +1,36 @@
+<main class="container">
+  <h1>Products </h1>
+  <form action="/products" method="POST" class="md-form mr-auto mb-4">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search" name="product" aria-label="Search">
+    <button class="btn btn-outline-success btn-rounded btn-sm my-0" type="submit">Search</button>
+  </form>
+
+  {{#if data}}
+  {{data}}
+  {{/if}}
+
+  {{#if error}}
+  {{error}}
+  {{/if}}
+
+  {{!-- {{#if data}}
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">name</th>
+        <th scope="col">price</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each data}}
+      <tr>
+        <td>{{id}}</td>
+        <td>{{name}}</td>
+        <td>{{price}}</td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+  {{/if}} --}}
+</main>
